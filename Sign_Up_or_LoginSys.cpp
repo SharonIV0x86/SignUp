@@ -1,4 +1,5 @@
 #include <iostream>
+#inlude <string>
 // A sign up or login system with human verification created in C++
 void inline clear_screen()
 {
