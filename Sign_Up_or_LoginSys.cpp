@@ -4,7 +4,7 @@
 void inline clear_screen()
 {
 #ifdef _WIN32
-    std::system("cls")
+    std::system("cls");
 #else
     std::system("clear");
 #endif
