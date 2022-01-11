@@ -18,7 +18,6 @@ public:
     void check_CREDENTIALS()
     {
         clear_screen();
-        // std::string name, password, pin;
         do
         {
             clear_screen();
