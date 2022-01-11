@@ -69,7 +69,7 @@ public:
         if (pin < 4)
         {
             clear_screen();
-            std::cout<<"\n\n\tTHE PIN HAS TO BE ONLY OF 4 NUMBERS! TRY AGAIN! ";
+            std::cout<<"\n\n\tTHE PIN HAS TO BE ONLY OF 4 DIGITS LONG! TRY AGAIN! ";
             take_CREDENTIALS();
         }
         
@@ -84,7 +84,6 @@ public:
     }
     void Human_Verification()
     {
-        // clear_screen();
         std::string alphabets_uppercase = "ABCDEFGHIJKLMNOPQRS12345678abcdefghijklmnopqrstuvwxyz910TUVWXYZ";
         int random_number_for_string = (rand() % 58);
         int random_number = rand() % 9999;
